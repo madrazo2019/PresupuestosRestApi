@@ -8,11 +8,11 @@ namespace PresupuestosApi.Interfaces
 {
     public interface IEgreso
     {
-       List<TbEgreso> GetAllEgresos(); //HttpGet
-       TbEgreso GetEgresoById(int id);  //HttpGet
-       void DeleteEgreso(int id);  //HttpDelete
-       void CreateEgreso(TbEgreso oBjEgreso); //HttpPost
-       void UpdateEgreso(TbEgreso oBjEgreso); //HttpPut
+        List<TbEgreso> GetAllEgresos(); //HttpGet
+        TbEgreso GetEgresoById(int id);  //HttpGet
+        void DeleteEgreso(int id);  //HttpDelete
+        void CreateEgreso(TbEgreso oBjEgreso); //HttpPost
+        void UpdateEgreso(TbEgreso oBjEgreso); //HttpPut
 
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ceUkfRs2B8iw9N/V9T+b5IL3QF6ez9efxNWTzZUnaMATKrK6x9QyFWYKTzl+/LWkMQihr9p5ZZhTCt3MZlzj5w==",
+  "dgSpecHash": "TH4Rfd3KgSiPIwLezTXVf7cZhX5vAZlKAA9LMFF3PP4AAUFf36i3/0YfSuuEbrSntrI77aiN5eAY3L5SBeB+Gw==",
   "success": true,
-  "projectFilePath": "C:\\Proyectos NetCore\\Presupuestos\\Presupuestos.csproj",
+  "projectFilePath": "C:\\Proyectos NetCore\\PresupuestosApi\\Presupuestos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arsenio Madrazo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Arsenio Madrazo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

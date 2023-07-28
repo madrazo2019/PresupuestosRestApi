@@ -3887,11 +3887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos NetCore\\Presupuestos\\Presupuestos.csproj",
+      "projectUniqueName": "C:\\Proyectos NetCore\\PresupuestosApi\\Presupuestos.csproj",
       "projectName": "Presupuestos",
-      "projectPath": "C:\\Proyectos NetCore\\Presupuestos\\Presupuestos.csproj",
+      "projectPath": "C:\\Proyectos NetCore\\PresupuestosApi\\Presupuestos.csproj",
       "packagesPath": "C:\\Users\\Arsenio Madrazo\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos NetCore\\Presupuestos\\obj\\",
+      "outputPath": "C:\\Proyectos NetCore\\PresupuestosApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arsenio Madrazo\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -28,33 +28,25 @@ public partial class PresupuestoContext : DbContext
     {
         modelBuilder.Entity<TbEgreso>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("tb_egresos");
+            entity.ToTable("tb_egresos");
 
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Descripcion)
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("descripcion");
-            entity.Property(e => e.Id)
-                .ValueGeneratedOnAdd()
-                .HasColumnName("id");
             entity.Property(e => e.Valor).HasColumnName("valor");
         });
 
         modelBuilder.Entity<TbIngreso>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("tb_ingresos");
+            entity.ToTable("tb_ingresos");
 
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Descripcion)
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("descripcion");
-            entity.Property(e => e.Id)
-                .ValueGeneratedOnAdd()
-                .HasColumnName("id");
             entity.Property(e => e.Valor).HasColumnName("valor");
         });
 
